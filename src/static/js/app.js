@@ -11,9 +11,6 @@ function App() {
     );
 }
 
-function Header(){
-    document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
-}
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
@@ -54,7 +51,6 @@ function TodoListCard() {
     if (items === null) return 'Loading...';
 
     return (
-        <h1> ToDo App by Yuki Yamaoka </h1>
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
