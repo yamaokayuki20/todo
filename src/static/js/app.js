@@ -5,7 +5,6 @@ function App() {
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
-                    //<Header />
                 </Col>
             </Row>
         </Container>
