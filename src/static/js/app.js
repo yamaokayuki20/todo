@@ -1,3 +1,4 @@
+document.write("<h1> ToDo App by Yuki Yamaoka </h1>")
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
@@ -53,7 +54,6 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <h1 className="text-center">ToDo App by Yuki Yamaoka</h1>
                 <p className="text-center">No items yet! Add one above!</p>
             )}
             {items.map(item => (
