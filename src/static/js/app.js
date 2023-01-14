@@ -1,4 +1,4 @@
-document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
+//document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
