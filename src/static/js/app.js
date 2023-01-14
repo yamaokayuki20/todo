@@ -54,6 +54,7 @@ function TodoListCard() {
     if (items === null) return 'Loading...';
 
     return (
+        document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
