@@ -4,8 +4,8 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
-                    <Header />
                     <TodoListCard />
+                    <Header />
                 </Col>
             </Row>
         </Container>
@@ -13,9 +13,7 @@ function App() {
 }
 
 function Header(){
-    return (
-        document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
-    );
+    document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
 }
 
 function TodoListCard() {
