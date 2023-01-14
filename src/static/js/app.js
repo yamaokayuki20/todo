@@ -1,15 +1,19 @@
-document.write("<h1> ToDo App by Yuki Yamaoka </h1>")
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <Header />
                     <TodoListCard />
                 </Col>
             </Row>
         </Container>
     );
+}
+
+function Header(){
+    document.write("<h1> ToDo App by Yuki Yamaoka </h1>");
 }
 
 function TodoListCard() {
